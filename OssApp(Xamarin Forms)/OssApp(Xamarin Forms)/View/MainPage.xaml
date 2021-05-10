@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OssApp_Xamarin_Forms_.MainPage">
+
+    <StackLayout>
+
+        <StackLayout Padding="20,216" Orientation="Vertical">
+            <Label
+                HeightRequest="50"
+                WidthRequest="20"
+                FontSize="40"
+                TextColor="Black" 
+                VerticalOptions="Center"
+                Text="Введите email"
+                ></Label>
+            <Label 
+                FontSize="Medium"
+                TextColor="Gray" 
+                WidthRequest="75"
+                VerticalOptions="Center" 
+                Text="чтобы зарегестрироваться в приложении OssApp"
+                ></Label>
+
+            <Editor 
+                Placeholder="Введите email"
+                >
+                
+            </Editor>
+            <Button 
+                WidthRequest="342" 
+                HeightRequest="55" 
+                VerticalOptions="Center"
+                BackgroundColor="#555B6F"
+                Text="Продолжить"
+                TextColor="White"
+                CornerRadius="12"
+                ></Button>
+        </StackLayout>
+
+
+
+
+    </StackLayout>
+
+</ContentPage>
